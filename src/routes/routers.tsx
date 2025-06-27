@@ -6,8 +6,9 @@ import Roadmap from "../pages/Roadmap";
 import Partners from "../pages/Partners";
 import Service from "../pages/Service";
 import Contact from "../pages/Contact";
-import Skill from "../pages/Skill";
+// import Skill from "../pages/Skill";
 import KeyFeatures from "../pages/KeyFeatures";
+import Tokenomics from "../pages/Tokenomics";
 
 const routes: RouteObject[] = [
   {
@@ -16,7 +17,7 @@ const routes: RouteObject[] = [
     children: [
       { path: "/", element: <Home /> },
       { path: "/roadmap", element: <Roadmap /> },
-      { path: "/skill", element: <Skill /> },
+      { path: "/tokenomics", element: <Tokenomics /> },
       { path: "/partners", element: <Partners /> },
       { path: "/service", element: <Service /> },
       { path: "/contact", element: <Contact /> },

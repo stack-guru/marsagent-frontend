@@ -18,7 +18,8 @@ const Stepcard: React.FC<any> = ({ item }) => {
                 data-aos="fade-up"
                 data-aos-delay="100"
             >
-                <FaRocket className="mr-3" size={16} /> {title}
+                <FaRocket className="mr-3" size={16} /> 
+                <span className="text-theme">{title}</span>
             </h3>
 
             {

@@ -43,17 +43,17 @@ export default function Header() {
               Roadmap
             </NavLink>
             <NavLink
-              to="/skill"
+              to="/tokenomics"
               className="text-white transition duration-300 ease-in-out hover:text-navActive"
             >
-              Skills
+              Tokenomics
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/contact"
               className="text-white transition duration-300 ease-in-out hover:text-navActive"
             >
               Contact
-            </NavLink>
+            </NavLink> */}
           </menu>
 
           <div className="block lg:hidden">
