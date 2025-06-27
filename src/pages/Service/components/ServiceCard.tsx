@@ -14,7 +14,9 @@ const ServiceCard: React.FC<ServiceCardItemProps> = ({ item }) => {
       data-aos-delay="300"
     >
       <div className="group rounded-2xl bg-btn p-[30px]">
-        {/* <div>{icon}</div> */}
+        <div className="flex items-center justify-center">
+          {icon}
+        </div>
         <h2 className="text-[20px] font-medium text-white md:text-[26px] text-center">
           {title}
         </h2>

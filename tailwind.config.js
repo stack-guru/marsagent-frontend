@@ -21,6 +21,7 @@ export default {
         'text': 'rgb(196 207 222)',
         'theme': 'rgb(255 1 79)',
         'btn': 'rgb(41 40 45)',
+        'token': '#ff741e'
       },
       '@layer utilities': {
         'bg-img': {

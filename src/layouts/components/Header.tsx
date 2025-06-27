@@ -10,7 +10,10 @@ export default function Header() {
     <header className="relative z-[99]">
       <div className="container mx-auto pt-[30px]">
         <div className="flex justify-between rounded-[10px] px-[15px] py-[30px] md:px-[30px] bg-card">
-          <img src={Logo} alt="logo" className="w-[40px] animate-bounce" />
+          <div className="flex items-center cursor-pointer">
+            <img src={Logo} alt="logo" className="w-[40px] animate-bounce mr-2" />
+            <span className="font-medium text-[18px] text-token">Marsagent</span>
+          </div>
           <menu className="hidden items-center lg:flex gap-[40px]">
             <NavLink
               to="/"
