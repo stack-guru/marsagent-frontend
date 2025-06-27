@@ -11,7 +11,7 @@ const ServiceCard: React.FC<ServiceCardItemProps> = ({ item }) => {
     <div
       className="col-span-12 md:col-span-6 lg:col-span-4 "
       data-aos="fade-up"
-      data-aos-delay="100"
+      data-aos-delay="300"
     >
       <div className="group rounded-2xl bg-btn p-[30px]">
         {/* <div>{icon}</div> */}

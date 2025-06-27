@@ -37,10 +37,10 @@ export default function Header() {
               Partners
             </NavLink>
             <NavLink
-              to="/about"
+              to="/roadmap"
               className="text-white transition duration-300 ease-in-out hover:text-navActive"
             >
-              About Me
+              Roadmap
             </NavLink>
             <NavLink
               to="/skill"
