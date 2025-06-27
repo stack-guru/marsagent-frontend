@@ -6,7 +6,7 @@ export default function Buytoken() {
       data-aos="fade-up"
       data-aos-delay="250"
     >
-      <a className="btn" href="/#">
+      <a className="btn hover:bg-dark-theme hover:border-dark-theme" href="/#">
         Buy $MRAI
       </a>
     </div>

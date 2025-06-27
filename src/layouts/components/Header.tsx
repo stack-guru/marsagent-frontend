@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex justify-between rounded-[10px] px-[15px] py-[30px] md:px-[30px] bg-card">
           <div className="flex items-center cursor-pointer">
             <img src={Logo} alt="logo" className="w-[40px] animate-bounce mr-2" />
-            <span className="font-medium text-[18px] text-token">Marsagent</span>
+            <span className="font-medium text-[18px]">Marsagent</span>
           </div>
           <menu className="hidden items-center lg:flex gap-[40px]">
             <NavLink
