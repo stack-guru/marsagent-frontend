@@ -15,7 +15,7 @@ const ServiceCard: React.FC<ServiceCardItemProps> = ({ item }) => {
     >
       <div className="group rounded-2xl bg-btn p-[30px]">
         {/* <div>{icon}</div> */}
-        <h2 className="text-[20px] font-medium text-white md:text-[26px]">
+        <h2 className="text-[20px] font-medium text-white md:text-[26px] text-center">
           {title}
         </h2>
         <p className="mt-[10px] text-text">{description}</p>

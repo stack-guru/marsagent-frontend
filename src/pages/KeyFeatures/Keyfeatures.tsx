@@ -14,10 +14,12 @@ export default function Keyfeatures() {
                             data-aos-delay="100"
                         >
                             <div className="group rounded-2xl bg-btn p-[30px]">
-                                {/* <div>{icon}</div> */}
-                                <h2 className="text-[20px] font-medium text-white md:text-[26px]">
-                                    {item.title}
-                                </h2>
+                                <div className="flex gap-2 items-center">
+                                    {item.icon}
+                                    <h2 className="text-[20px] font-medium text-white md:text-[26px]">
+                                        {item.title}
+                                    </h2>
+                                </div>
                                 <p className="mt-[10px] text-text">{item.description}</p>
                             </div>
                         </div>
