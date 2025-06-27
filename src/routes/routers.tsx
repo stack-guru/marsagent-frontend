@@ -6,6 +6,7 @@ import Partners from "../pages/Partners";
 import Service from "../pages/Service";
 import Contact from "../pages/Contact";
 import Skill from "../pages/Skill";
+import KeyFeatures from "../pages/KeyFeatures";
 
 const routes: RouteObject[] = [ 
   {
@@ -18,6 +19,7 @@ const routes: RouteObject[] = [
       {path: "/partners", element: <Partners />},
       {path: "/service", element: <Service />},
       {path: "/contact", element: <Contact />},
+      {path: "/keyfeatures", element: <KeyFeatures />},
     ]
   }
 ]

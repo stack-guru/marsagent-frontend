@@ -19,6 +19,12 @@ export default function Header() {
               About
             </NavLink>
             <NavLink
+              to="/keyfeatures"
+              className="text-white transition duration-300 ease-in-out hover:text-navActive"
+            >
+              Key Features
+            </NavLink>
+            <NavLink
               to="/service"
               className="text-white transition duration-300 ease-in-out hover:text-navActive"
             >
