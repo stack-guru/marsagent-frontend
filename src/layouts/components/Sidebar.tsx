@@ -9,7 +9,7 @@ export default function Sidebar() {
   } = useRoot();
   return (
     <div className={`sidebar fixed left-${sideOpen ? '0' : '[100%]'}  top-0 z-[999]  h-full w-full bg-btn/60 transition-all duration-500`}>
-    {/* <div className="sidebar fixed left-[100%] top-0 z-[999]  h-full w-full bg-btn/60 transition-all duration-500"> */}
+      {/* <div className="sidebar fixed left-[100%] top-0 z-[999]  h-full w-full bg-btn/60 transition-all duration-500"> */}
       <div className="ml-auto h-full min-h-[750px] w-[300px] bg-card  px-[30px] pt-[60px] md:min-h-[700px]">
         <div className="relative flex justify-center">
           <span className="group absolute left-[-78px] rounded-lg bg-card   px-[15px] py-[10px] text-[26px] cursor-pointer" onClick={toggleSideOpen}>
@@ -37,28 +37,14 @@ export default function Sidebar() {
             className="text-white font-semibold text-[18px] transition duration-300 ease-in-out hover:text-navActive"
             onClick={toggleSideOpen}
           >
-            Home
+            About
           </NavLink>
           <NavLink
-            to="/about"
+            to="/keyfeatures"
             className="text-white font-semibold text-[18px] transition duration-300 ease-in-out hover:text-navActive"
             onClick={toggleSideOpen}
           >
-            About Me
-          </NavLink>
-          <NavLink
-            to="/skill"
-            className="text-white font-semibold text-[18px] transition duration-300 ease-in-out hover:text-navActive"
-            onClick={toggleSideOpen}
-          >
-            Skills
-          </NavLink>
-          <NavLink
-            to="/portfolio"
-            className="text-white font-semibold text-[18px] transition duration-300 ease-in-out hover:text-navActive"
-            onClick={toggleSideOpen}
-          >
-            Portfolio
+            Key Features
           </NavLink>
           <NavLink
             to="/service"
@@ -68,11 +54,25 @@ export default function Sidebar() {
             Service
           </NavLink>
           <NavLink
-            to="/contact"
+            to="/partners"
             className="text-white font-semibold text-[18px] transition duration-300 ease-in-out hover:text-navActive"
             onClick={toggleSideOpen}
           >
-            Contact
+            Partners
+          </NavLink>
+          <NavLink
+            to="/roadmap"
+            className="text-white font-semibold text-[18px] transition duration-300 ease-in-out hover:text-navActive"
+            onClick={toggleSideOpen}
+          >
+            Roadmap
+          </NavLink>
+          <NavLink
+            to="/tokenomics"
+            className="text-white font-semibold text-[18px] transition duration-300 ease-in-out hover:text-navActive"
+            onClick={toggleSideOpen}
+          >
+            Tokenomics
           </NavLink>
         </menu>
         {/* <div className="my-[30px] border-t border-[#ddd] "></div> */}
