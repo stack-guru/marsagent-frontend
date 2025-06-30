@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer className="relative z-[9]">
-      <div className="container mx-auto  flex justify-between pb-[40px]">
+      <div className="container mx-auto flex flex-col items-center gap-4 md:flex-row md:justify-between py-[40px]">
         <div className="flex items-center gap-4">
           <img src={Logo} alt="logo" className="w-[40px]" />
           <p className="text-center text-text">
