@@ -1,4 +1,4 @@
-import HandShakeImg from "@/assets/hand-shake.png";
+// import HandShakeImg from "@/assets/hand-shake.png";
 
 export default function Title() {
   return (

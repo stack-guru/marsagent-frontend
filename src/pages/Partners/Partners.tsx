@@ -5,58 +5,58 @@ import Subject from "../../components/Subject";
 import { title } from "../../constant/partner";
 import { Link } from "react-router-dom";
 import { partners as partnerList } from "../../constant/partner";
-import ReactIcon from "../../assets/icons/icon-react.png";
-import VueIcon from "../../assets/icons/icon-vue.png";
-import AngularIcon from "../../assets/icons/icon-angular.png";
-import WebflowIcon from "../../assets/icons/icon-webflow.png";
-import DjangoIcon from "../../assets/icons/icon-django.png";
-import NodeJsIcon from "../../assets/icons/icon-nodejs.png";
-import NextJsIcon from "../../assets/icons/icon-nextjs.png";
-import NginxIcon from "../../assets/icons/icon-nginx.png";
-import JqueryIcon from "../../assets/icons/icon-jquery.png";
-import MongoDBIcon from "../../assets/icons/icon-mongodb.png";
-import TailwindCssIcon from "../../assets/icons/icon-tailwindcss.png";
-import NuxtJsIcon from "../../assets/icons/icon-nuxtjs.png";
-import BootStrapIcon from "../../assets/icons/icon-bootstrap.png";
-import NestJsIcon from "../../assets/icons/icon-nestjs.png";
-import SwiperJsIcon from "../../assets/icons/icon-swiperjs.png";
+// import ReactIcon from "../../assets/icons/icon-react.png";
+// import VueIcon from "../../assets/icons/icon-vue.png";
+// import AngularIcon from "../../assets/icons/icon-angular.png";
+// import WebflowIcon from "../../assets/icons/icon-webflow.png";
+// import DjangoIcon from "../../assets/icons/icon-django.png";
+// import NodeJsIcon from "../../assets/icons/icon-nodejs.png";
+// import NextJsIcon from "../../assets/icons/icon-nextjs.png";
+// import NginxIcon from "../../assets/icons/icon-nginx.png";
+// import JqueryIcon from "../../assets/icons/icon-jquery.png";
+// import MongoDBIcon from "../../assets/icons/icon-mongodb.png";
+// import TailwindCssIcon from "../../assets/icons/icon-tailwindcss.png";
+// import NuxtJsIcon from "../../assets/icons/icon-nuxtjs.png";
+// import BootStrapIcon from "../../assets/icons/icon-bootstrap.png";
+// import NestJsIcon from "../../assets/icons/icon-nestjs.png";
+// import SwiperJsIcon from "../../assets/icons/icon-swiperjs.png";
 
-type Icons = {
-  [key: string]: string; // add this line
-  react: string;
-  vue: string;
-  angular: string;
-  webflow: string;
-  django: string;
-  nodejs: string;
-  nginx: string;
-  jquery: string;
-  mongodb: string;
-  nextjs: string;
-  tailwindcss: string;
-  bootstrap: string;
-  nuxtjs: string;
-  nestjs: string;
-  swiperjs: string;
-};
+// type Icons = {
+//   [key: string]: string; // add this line
+//   react: string;
+//   vue: string;
+//   angular: string;
+//   webflow: string;
+//   django: string;
+//   nodejs: string;
+//   nginx: string;
+//   jquery: string;
+//   mongodb: string;
+//   nextjs: string;
+//   tailwindcss: string;
+//   bootstrap: string;
+//   nuxtjs: string;
+//   nestjs: string;
+//   swiperjs: string;
+// };
 
-const icons: Icons = {
-  react: ReactIcon,
-  vue: VueIcon,
-  angular: AngularIcon,
-  webflow: WebflowIcon,
-  django: DjangoIcon,
-  nodejs: NodeJsIcon,
-  nginx: NginxIcon,
-  jquery: JqueryIcon,
-  mongodb: MongoDBIcon,
-  nextjs: NextJsIcon,
-  tailwindcss: TailwindCssIcon,
-  bootstrap: BootStrapIcon,
-  nuxtjs: NuxtJsIcon,
-  nestjs: NestJsIcon,
-  swiperjs: SwiperJsIcon,
-};
+// const icons: Icons = {
+//   react: ReactIcon,
+//   vue: VueIcon,
+//   angular: AngularIcon,
+//   webflow: WebflowIcon,
+//   django: DjangoIcon,
+//   nodejs: NodeJsIcon,
+//   nginx: NginxIcon,
+//   jquery: JqueryIcon,
+//   mongodb: MongoDBIcon,
+//   nextjs: NextJsIcon,
+//   tailwindcss: TailwindCssIcon,
+//   bootstrap: BootStrapIcon,
+//   nuxtjs: NuxtJsIcon,
+//   nestjs: NestJsIcon,
+//   swiperjs: SwiperJsIcon,
+// };
 
 export default function partners() {
   useEffect(() => {

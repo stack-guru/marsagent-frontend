@@ -1,6 +1,6 @@
 import { SectionDescriptionProps, SubjectProps } from "../types";
 import { ServiceCardProps } from "../types/service";
-import { FaTools, FaBrain, FaRobot, FaChartLine } from "react-icons/fa";
+import { FaTools, FaRobot, FaChartLine } from "react-icons/fa";
 
 const title: SubjectProps["item"] = {
   svg: (

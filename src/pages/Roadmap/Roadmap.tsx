@@ -1,6 +1,6 @@
 import Subject from "../../components/Subject"
 import { title } from "../../constant/roadmap"
-import Steps from "./components/steps"
+import Steps from "./components/Steps"
 
 export default function Roadmap() {
   return (
