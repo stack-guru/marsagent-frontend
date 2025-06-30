@@ -24,13 +24,13 @@ const Stepcard: React.FC<any> = ({ item }) => {
 
             {
                 description.map((item: any, index: number) => <ul
-                    className="list-disc ml-5"
+                    className="list-disc ml-5 marker:text-white"
                     key={index + 10}
                     data-aos="fade-up"
                     data-aos-delay="300"
                 >
                     <li className="mt-1">
-                        <p className="font-medium">{item.stepTitle}</p>
+                        <p className="font-medium text-white">{item.stepTitle}</p>
                         <p className="text-text">{item.stepDescription}</p>
                     </li>
                 </ul>

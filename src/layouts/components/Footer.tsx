@@ -16,13 +16,13 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <a href="#" target="_blank" className="hover:text-gray-500">
+          <a href="#" target="_blank" className="hover:text-gray-500 text-white">
             <FaTelegram size={32} />
           </a>
-          <a href="#" target="_blank" className="hover:text-gray-500">
+          <a href="#" target="_blank" className="hover:text-gray-500 text-white">
             <FaTwitter size={32} />
           </a>
-          <a href="#" target="_blank" className="hover:text-gray-500">
+          <a href="#" target="_blank" className="hover:text-gray-500 text-white">
             <FaBook size={32} />
           </a>
         </div>

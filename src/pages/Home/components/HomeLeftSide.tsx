@@ -15,7 +15,6 @@ export default function HomeLeftSide() {
   return (
     <div className="order-2 col-span-12 mt-[40px] py-[40px] md:mt-0 md:pr-[60px] lg:order-1 lg:col-span-8">
       <Title />
-      <br />
       <Bio />
       <Buytoken />
       {/* <Statistic /> */}

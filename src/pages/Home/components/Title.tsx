@@ -7,7 +7,7 @@ export default function Title() {
         <span className="text-theme">Marsagent</span>
       </p>
       <h2
-        className="relative mt-[20px] inline-block text-[32px] font-semibold leading-tight md:text-[62px]"
+        className="relative mt-[20px] inline-block text-[32px] font-semibold leading-tight md:text-[62px] text-white"
         data-aos="fade-up"
         data-aos-delay="150"
       >

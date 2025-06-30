@@ -40,7 +40,7 @@ export default function Avatar() {
             </svg>
           </div>
           <div>
-            <h2 className="text-[26px] font-semibold">11M</h2>
+            <h2 className="text-[26px] font-semibold text-white">11M</h2>
             <p className="text-base text-white">Users</p>
           </div>
         </div>

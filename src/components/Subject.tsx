@@ -16,7 +16,7 @@ const Subject: React.FC<SubjectProps> = ({ item }) => {
     >
       <div className=" inline-block rounded-full border border-text px-[20px] py-[5px]">
         <div className="flex items-center gap-[6px]">
-          <span>{svg}</span>
+          <span className="text-white">{svg}</span>
           <span className="pl-[6px] text-[14px] text-white">{title}</span>
         </div>
       </div>
